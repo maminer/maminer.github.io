@@ -1,57 +1,30 @@
 ---
-layout: post-index
+layout: post
+title: About
+
 ---
-{% for post in paginator.posts %}
-<article>
-    
-    <!-- POST FEATURED IMAGE -->
-    <div class="featured-image">
-    <img src="{{ post.featured-image}}" style="width:100%">
-    </div>
-
-    <!-- POST TITLE -->
-    <header>
-        <h1 class="entry-title">
-            <a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a>
-        </h1>
-        <h3 class="entry-subtitle">
-            <a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.subtitle }}</a>
-        </h3>
-    </header>
-
-    <!-- POST CONTENT -->
-<!--     <div class="entry-content">
-        {{ post.content }}
-    </div> -->
-    
-    <!--- DIVIDING LINE -->
-    <hr>
-    
-    <!-- POST TAGS -->
-    <div class="inline-tags">
-        <span>
-        {% for tag in post.tags %}
-            <a href="/tags/#{{tag}}">#{{ tag }}&nbsp;&nbsp;&nbsp;</a>
-        {% endfor %}
-        </span>
-    </div>
-    
-    <br>
-    
-    <!-- POST DATE -->
-    <div class="post-date">
-        <span class="entry-date date published updated">
-            <time datetime="{{ post.date | date_to_xmlschema }}">
-                <a href="{{ site.url }}{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}</a>
-            </time>
-        </span>
-    </div>
-    
-</article>
-{% endfor %}
-
-<div class="pagination">
-<center>
-{% include pagination.html %}
+            <!-- POST CONTENT -->
+            <div class="entry-content">
+                <center>
+<img src="/smallcirc.png">
 </center>
-    </div>
+
+<p>
+<center>
+    <ul class="navigation-bar">
+       <li><a href="https://www.github.com/maminer"><i class='fa fa-github-alt'></i></a></li>  
+       <li><a href="https://www.linkedin.com/in/minerm"><i class='fa fa-linkedin'></i></a></li>       
+    </ul>
+</center>
+</p>
+
+<p>
+My research focuses on the interplay of inequality and institutions. As primarily a quantitative sociologist, I conduct research on school segregation, racial/ethnic and socioeconomic inequality, educational policy, public trust/confidence in institutions and other issues related to science, knowledge and technology. My most recent work examines how school accountability ratings are associated with school segregation, how they shape public perceptions and how they influence parents’ enrollment decisions. 
+</p>
+
+<hr>
+
+<p>
+I received my Ph.D. in Sociology at the University of Wisconsin, Milwaukee. I also hold a B.A. in Psychology and Sociology from St. Joseph's College, Brooklyn and an M.A. in Sociology from the University of Wisconsin, Milwaukee.
+</p>
+
