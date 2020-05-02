@@ -1,0 +1,10 @@
+---
+layout: post-index
+---
+{% for post in paginator.posts %}
+<article>
+    
+    <!-- POST FEATURED IMAGE -->
+    <div class="featured-image">
+    <img src="{{ post.featured-image}}" style="width:100%">
+    </div>
