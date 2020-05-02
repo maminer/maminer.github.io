@@ -4,7 +4,7 @@ Social Scientist
 
 
 <figure>
-<img src="slate+simple_screenshot.png">
+<img src="miner_.jpeg">
 </figure>
 
 
