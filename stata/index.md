@@ -1,5 +1,0 @@
----
-layout: post
-title: Stata Code
----
-Code Tutorials for Stata [Forthcoming]
