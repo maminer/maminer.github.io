@@ -6,7 +6,7 @@ title: About
             <!-- POST CONTENT -->
             <div class="entry-content">
                 <center>
-<img src="/circulat.png">
+<img src="/circular.png">
 </center>
 
 <p>
