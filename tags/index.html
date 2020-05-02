@@ -1,6 +1,6 @@
 ---
 layout: post-index
-title: Tags Archive
+title: Select Publications and Conference Presentations
 ---
 
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
@@ -21,19 +21,3 @@ title: Tags Archive
         {% endfor %}
     </ul>
 </article>
-
-{% for item in (0..site.tags.size) %}{% unless forloop.last %}
-    {% capture this_word %}{{ tags_list[item] | strip_newlines }}{% endcapture %}
-	<article>
-        <h1 id="{{ this_word }}" class="entry-title">{{ this_word }}</h1>
-            <ul>
-                {% for post in site.tags[this_word] %}
-                    {% if post.title != null %}
-                        <li>
-                            <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}   ({{ post.date | date: "%B %d, %Y" }})</a>
-                        </li>
-                    {% endif %}
-                {% endfor %}
-		  </ul>
-    </article>
-{% endunless %}{% endfor %}
