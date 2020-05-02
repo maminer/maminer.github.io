@@ -6,7 +6,7 @@ title: About
             <!-- POST CONTENT -->
             <div class="entry-content">
                 <center>
-<img src="/smaller.png">
+<img src="/smallcirc.png">
 </center>
 
 <p>
