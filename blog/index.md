@@ -2,4 +2,4 @@
 layout: post
 title: Public Sociology [forthcoming]
 ---
-Opinions expressed are solely my own and do not express the views or opinions of my employer.
+Opinions expressed in the text belong solely to the author, and not necessarily to the author's employer.
